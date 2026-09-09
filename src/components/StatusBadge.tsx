@@ -1,7 +1,7 @@
 import type { TransactionStatus } from '../types/api';
 
 const GAYA: Record<TransactionStatus, { bg: string; teks: string; label: string }> = {
-  pending: { bg: '#fef3c7', teks: '#92400e', label: 'Pending' },
+  pending: { bg: '#fed7aa', teks: '#7c2d12', label: 'Pending' },
   berhasil: { bg: '#d1fae5', teks: '#065f46', label: 'Berhasil' },
   refund: { bg: '#e0e7ff', teks: '#3730a3', label: 'Refund' },
 };
